@@ -1,0 +1,26 @@
+train_net: "/home/dena/Projects/caffe_CharacterDetection/version2/synth-fcn8s-atonce/train.prototxt"
+test_net: "/home/dena/Projects/caffe_CharacterDetection/version2/synth-fcn8s-atonce/val.prototxt"
+test_iter: 736
+# make test net, but don't invoke it from the solver itself
+#9999
+test_interval: 999999999
+#display: 20
+display: 1
+average_loss: 100
+lr_policy: "fixed"
+# lr for unnormalized softmax
+base_lr: 1e-12
+# high momentum
+momentum: 0.99
+# no gradient accumulation
+#anguelos{
+#log_dir = /tmp/fcn8caffelog
+#anguelos}
+#batch size
+iter_size: 1
+#9999
+max_iter: 100000
+weight_decay: 0.0005
+snapshot: 1000
+snapshot_prefix: "/home/dena/Projects/caffe_CharacterDetection/version2/snapshot/train"
+test_initialization: false
