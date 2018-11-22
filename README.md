@@ -21,7 +21,7 @@ Please cite this work in your publications if it helps your research: <br />
   title = {Word Spotting in Scene Images based on Character Recognition }, <br />
   booktitle = {Proceeding of Computer Vision and Pattern Recognition Workshops}, <br />
   publisher = {IEEE}, <br />
-  pages = {1-3}, <br />
+  pages = {1872--1874}, <br />
   year = {2018} <br />
 }
 
